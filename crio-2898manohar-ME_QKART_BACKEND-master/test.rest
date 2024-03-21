@@ -1,0 +1,14 @@
+###
+
+GET http://15.206.232.81:8082/
+
+###
+
+POST http://15.206.232.81:8082/v1/auth/register
+Content-Type: application/json
+
+{
+    "name": "testuser",
+    "email": "testu9@gmail.com",
+    "password": "testuser2"
+}
